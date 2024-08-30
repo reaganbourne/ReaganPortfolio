@@ -14,11 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #BBC3F2;
+  color: #EBEBF2;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.text-container {
+  margin-right: 60px; /* Right margin for the entire container */
+  margin-left: 60px; /* Left margin for the entire container */
+}
+
+.text-container p {
+  margin-bottom: 10px; /* Bottom margin for each paragraph */
+}
+
+h3 {
+  color: #4D49BF
+}
+
+h1{ 
+  color: #4D49BF
 }
