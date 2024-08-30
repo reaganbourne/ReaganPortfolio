@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReaganPortfolio/static/css/main.82daf575.css",
+    "main.js": "/ReaganPortfolio/static/js/main.a08cb076.js",
+    "static/js/453.cfc560a0.chunk.js": "/ReaganPortfolio/static/js/453.cfc560a0.chunk.js",
+    "index.html": "/ReaganPortfolio/index.html",
+    "main.82daf575.css.map": "/ReaganPortfolio/static/css/main.82daf575.css.map",
+    "main.a08cb076.js.map": "/ReaganPortfolio/static/js/main.a08cb076.js.map",
+    "453.cfc560a0.chunk.js.map": "/ReaganPortfolio/static/js/453.cfc560a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82daf575.css",
+    "static/js/main.a08cb076.js"
+  ]
+}
