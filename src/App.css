@@ -3,8 +3,12 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 200px; /* Adjust size as needed */
+  width: 200px;  /* Ensure consistent size */
+  align-items: center;
   pointer-events: none;
+  animation: App-logo-spin infinite 20s linear; /* Add the default animation here */
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -20,7 +24,19 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.section-style {
+  background-color: #BBC3F2;
+  color: #EBEBF2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -40,18 +56,52 @@
 }
 
 .text-container {
-  margin-right: 60px; /* Right margin for the entire container */
-  margin-left: 60px; /* Left margin for the entire container */
+  padding: 5px; /* Add padding around the text */
+  width: 100%; /* Ensure the container takes full width */
+  max-width: 1000px; /* Optional: Limit the maximum width */
+  box-sizing: border-box; /* Include padding in the element's width and height */
 }
 
 .text-container p {
   margin-bottom: 10px; /* Bottom margin for each paragraph */
 }
 
-h3 {
+h2 {
   color: #4D49BF
 }
 
 h1{ 
   color: #4D49BF
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #EBEBF2;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+
+.nav-links a:hover {
+  background-color: #5576D9;
+  border-radius: 5px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5576D9;
+  z-index: 1000; /* Ensures it stays on top of other content */
 }
