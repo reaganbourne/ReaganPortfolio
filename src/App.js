@@ -19,7 +19,7 @@ function App() {
           </ul>
         </nav>
       <h1>Reagan Bourne</h1>
-      <img src="/reaganAstronaut.png" className="App-logo" alt="logo" />
+      <img src="./reaganAstronaut.png" className="App-logo" alt="logo" />
       <p>Hi I'm Reagan! I am a senior pursuing a B.S. in Computer Science at FSU. 
         Please look through this website to learn more about me :)  </p>
       </header>
